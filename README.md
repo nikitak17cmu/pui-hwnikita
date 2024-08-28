@@ -2,4 +2,4 @@
 
 Deployed website: nikitak17cmu.github.io/pui-hwnikita
 
-Repository link: `add the URL to this repository`
+Repository link: https://github.com/nikitak17cmu/pui-hwnikita
