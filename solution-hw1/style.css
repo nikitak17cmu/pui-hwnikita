@@ -196,11 +196,6 @@
     align-items: center;
   }
 
-  #add{
-    border: #000;
-    border: 10px;
-  }
-
   .addtocart{
     display: flex;
     flex-direction: row;
@@ -246,8 +241,12 @@
     border-color: black;
   }
 
+  #ddc-cart-text{
+    font-size: 18px;
+  }
+
   #checkout-line{
-    width: 500px;
+    width: 600px;
   }
   .cart-items{
     display: flex;
