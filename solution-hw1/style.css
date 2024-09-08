@@ -17,16 +17,21 @@
   /* PRODUCTS LIST */
 
   #product-page{
-    display:inline;
+    /* display:inline; */
+    display: inline;
+    /* flex-direction: column; */
     color:black;
     text-decoration-style: none;
   }
   #product-page:hover{
-    padding: 2px;
-    padding-left: 100px;
+     /* padding: 2px; */
+    /* padding-left: 100px; */
+    display: inline;
+    /* flex-direction: column; */
     background-color: yellow;
   }
   #cart-page {
+    display: inline;
     color:black;
     text-decoration-style: none;
   }
@@ -40,8 +45,11 @@
     text-decoration-style: none;
   }
   #cart-page:hover{
-    padding: 2px;
-    padding-left: 100px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    display: inline;
+    /* padding: 2px;
+    padding-left: 100px; */
     background-color: yellow;
   }
 
