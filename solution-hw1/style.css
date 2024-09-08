@@ -1,0 +1,278 @@
+.logo{
+    width: 200px;
+    height: 200px;
+  
+    /* Add some rounded corners to the image. */
+    border-radius: 5px;
+  }
+
+  .navigation{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    list-style: none;
+    
+  }
+
+  /* PRODUCTS LIST */
+
+  #product-page{
+    display:inline;
+    color:black;
+    text-decoration-style: none;
+  }
+  #product-page:hover{
+    padding: 2px;
+    padding-left: 100px;
+    background-color: yellow;
+  }
+  #cart-page {
+    color:black;
+    text-decoration-style: none;
+  }
+  #cart-page:link{
+    color:black;
+    text-decoration-style: none;
+  }
+
+  #cart-page:visited{
+    color:black;
+    text-decoration-style: none;
+  }
+  #cart-page:hover{
+    padding: 2px;
+    padding-left: 100px;
+    background-color: yellow;
+  }
+
+  .rolls{
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  #original-roll{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #555;
+    border-color: black;
+  }
+  #original{
+    padding: 6px;
+    text-decoration: underline;
+  }
+  #original:hover{
+    outline: 10px;
+    outline-color: yellow;
+    background-color: yellow;
+    cursor: pointer;
+  }
+
+  #apple-roll{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #555;
+    border-color: black;
+  }
+  #apple{
+    padding: 6px;
+    text-decoration: underline;
+  }
+  #apple:hover{
+    outline: 10px;
+    outline-color: yellow;
+    background-color: yellow;
+    cursor: pointer;
+
+  }
+
+  #raisin-roll{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #555;
+    border-color: black;
+  }
+  #raisin{
+    padding: 6px;
+    text-decoration: underline;
+  }
+  #raisin:hover{
+    outline: 10px;
+    outline-color: yellow;
+    background-color: yellow;
+    cursor: pointer;
+
+  }
+
+  #walnut-roll{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #555;
+    border-color: black;
+  }
+  #walnut{
+    padding: 6px;
+    text-decoration: underline;
+  }
+  #walnut:hover{
+    outline: 10px;
+    outline-color: yellow;
+    background-color: yellow;
+    cursor: pointer;
+
+  }
+
+  #doublechoc-roll{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #555;
+    border-color: black;
+  }
+  #doublechoc{
+    padding: 6px;
+    text-decoration: underline;
+  }
+  #doublechoc:hover{
+    outline: 10px;
+    outline-color: yellow;
+    background-color: yellow;
+    cursor: pointer;
+
+  }
+
+  #strawberry-roll{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #555;
+    border-color: black;
+  }
+  #strawberry{
+    padding: 6px;
+    text-decoration: underline;
+  }
+  #strawberry:hover{
+    outline: 10px;
+    outline-color: yellow;
+    background-color: yellow;
+    cursor: pointer;
+
+  }
+  
+  .product-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* margin-bottom: 100px; */
+  }
+
+  /* PRODUCT DETAILS PAGE */
+
+  #original-roll-PD{
+    width: 350px;
+    height: 350px;
+    border: 2px solid #555;
+    border-color: black;
+  }
+  .originalPD{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dropdown{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #add{
+    border: #000;
+    border: 10px;
+  }
+
+  .addtocart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #add:hover{
+    background-color: yellow;
+    padding: 2px;
+  }
+
+  /* CART PAGE */
+
+  #cart-title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+  }
+
+  #original-cart-text{
+    font-size: 18px;
+  }
+  #remove-original{
+    font-size: 10px;
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  #original-roll-cart{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #555;
+    border-color: black;
+  }
+
+  #original-cart-text{
+    font-size: 18px;
+  }
+  #ddc-roll-cart{
+    width: 100px;
+    height: 100px;
+    border: 2px solid #555;
+    border-color: black;
+  }
+
+  #checkout-line{
+    width: 500px;
+  }
+  .cart-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #ddc-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #original-cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #total-checkout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #checkout-button:hover{
+    background-color: yellow;
+    padding: 2px;
+  }
+
+
+  
+ 
