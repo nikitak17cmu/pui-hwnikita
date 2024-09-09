@@ -1,8 +1,8 @@
+/* HEADER  */
+
 .logo{
-    width: 200px;
-    height: 200px;
-  
-    /* Add some rounded corners to the image. */
+    width: 400px;
+    height: 400px;
     border-radius: 5px;
   }
 
@@ -12,24 +12,24 @@
     font-size: 20px;
     list-style: none;
   }
+
+  /* ALL LINKS */
+
   a{
     color: black;
+    text-decoration: none;
   }
 
   /* PRODUCTS LIST */
 
+  /* Navigation Styling */
   #product-page{
-    /* display:inline; */
     display: inline;
-    /* flex-direction: column; */
     color:black;
     text-decoration-style: none;
   }
   #product-page:hover{
-     /* padding: 2px; */
-    /* padding-left: 100px; */
     display: inline;
-    /* flex-direction: column; */
     background-color: yellow;
   }
   #cart-page {
@@ -37,24 +37,12 @@
     color:black;
     text-decoration-style: none;
   }
-  #cart-page:link{
-    color:black;
-    text-decoration-style: none;
-  }
-
-  #cart-page:visited{
-    color:black;
-    text-decoration-style: none;
-  }
   #cart-page:hover{
-    /* display: flex; */
-    /* flex-direction: column; */
     display: inline;
-    /* padding: 2px;
-    padding-left: 100px; */
     background-color: yellow;
   }
 
+  /* Cinnamon Roll Images + Info */
   .rolls{
     text-align: center;
     font-size: 20px;
@@ -62,14 +50,14 @@
   }
 
   #original-roll{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     border: 2px solid #555;
     border-color: black;
   }
   #original{
     padding: 6px;
-    text-decoration: underline;
+    text-decoration: none;
   }
   #original:hover{
     outline: 10px;
@@ -78,15 +66,9 @@
     cursor: pointer;
   }
 
-  #apple-roll{
-    width: 200px;
-    height: 200px;
-    border: 2px solid #555;
-    border-color: black;
-  }
   #apple{
     padding: 6px;
-    text-decoration: underline;
+    text-decoration: none;
   }
   #apple:hover{
     outline: 10px;
@@ -96,15 +78,9 @@
 
   }
 
-  #raisin-roll{
-    width: 200px;
-    height: 200px;
-    border: 2px solid #555;
-    border-color: black;
-  }
   #raisin{
     padding: 6px;
-    text-decoration: underline;
+    text-decoration: none;
   }
   #raisin:hover{
     outline: 10px;
@@ -114,15 +90,9 @@
 
   }
 
-  #walnut-roll{
-    width: 200px;
-    height: 200px;
-    border: 2px solid #555;
-    border-color: black;
-  }
   #walnut{
     padding: 6px;
-    text-decoration: underline;
+    text-decoration: none;
   }
   #walnut:hover{
     outline: 10px;
@@ -132,15 +102,9 @@
 
   }
 
-  #doublechoc-roll{
-    width: 200px;
-    height: 200px;
-    border: 2px solid #555;
-    border-color: black;
-  }
   #doublechoc{
     padding: 6px;
-    text-decoration: underline;
+    text-decoration: none;
   }
   #doublechoc:hover{
     outline: 10px;
@@ -150,15 +114,9 @@
 
   }
 
-  #strawberry-roll{
-    width: 200px;
-    height: 200px;
-    border: 2px solid #555;
-    border-color: black;
-  }
   #strawberry{
     padding: 6px;
-    text-decoration: underline;
+    text-decoration: none;
   }
   #strawberry:hover{
     outline: 10px;
@@ -179,8 +137,8 @@
   /* PRODUCT DETAILS PAGE */
 
   #original-roll-PD{
-    width: 350px;
-    height: 350px;
+    width: 600px;
+    height: 600px;
     border: 2px solid #555;
     border-color: black;
   }
