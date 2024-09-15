@@ -183,20 +183,29 @@ a{
     gap: 140px;
 }
 
-.checkout-row{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 20px;
+.checkout-main{
+    display:flex;
+    justify-content: flex-end;
 }
-.total-checkout{
-    display: flex;
+#checkout{
+    display:flex;
     flex-direction: column;
     align-items: flex-end;
-    /* gap: 200px; */
-    margin:200px;
 }
-
+.checkout-row{
+    display:flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 500px;
+}
+.button-row{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+#checkout-button{
+    margin-top:10px;
+}
 #checkout-line{
     border: 3px solid black;
     width:1000px;
