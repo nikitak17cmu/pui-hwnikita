@@ -45,14 +45,20 @@ a{
     text-align: center;
 }
 .navigation li a{
-   padding: 0 50px;
+   padding: 0 20px;
+}
+#product-page{
+    display: inline;
+    padding: 0px;
 }
 #product-page:hover{
     display: inline;
+    font-weight:bold;
     background-color: yellow;
 }
-  #cart-page:hover{
+#cart-page:hover{
     display: inline;
+    font-weight:bold;
     background-color: yellow;
 }
 .header-rolls{
@@ -89,6 +95,7 @@ a{
 }
 
 .roll:hover{
+    font-weight:bold;
     border-color: yellow;
     background-color: yellow;
     cursor: pointer;
@@ -119,10 +126,16 @@ a{
 }
 
 .addtocart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
 #add:hover{
+    font-weight: bold;
+    outline: 2px solid black;
     background-color: yellow;
   }
 
@@ -205,6 +218,9 @@ a{
 }
 #checkout-button{
     margin-top:10px;
+    outline: 2px solid black;
+    font-weight: bold;
+    background-color: yellow;
 }
 #checkout-line{
     border: 3px solid black;
