@@ -75,12 +75,11 @@ a{
     width: 300px;
     box-sizing: border-box;
     margin: 10px;
+    border: 5px solid transparent;
 }
 
 .roll:hover{
-    /* display: inline; */
-    outline: 10px;
-    outline-color: yellow;
+    border-color: yellow;
     background-color: yellow;
     cursor: pointer;
 }
