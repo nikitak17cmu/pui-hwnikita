@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  
+  <head>
+    <title>Product Details</title>
+    <link rel="stylesheet" href="../solution-hw2/style.css"/>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class = "header-row">
+        <img class = "logo" src = "../assets/logo/logo-01.svg" alt = "bun bun logo"/>
+        <div class = "header-column">
+            <ul class = "navigation">
+            <li id = "product-page"><a href="./index.html">PRODUCTS</a></li>
+            <li id = "cart-page"><a href="./cart.html">CART</a></li>
+            </ul>
+            <hr id = "header-line">
+            
+           
+        </div>
+    </div>
+    <p class = "header-rolls">Original cinnamon roll</p>
+
+    <!-- Original Roll Image -->
+    <div class = "details-row">
+        <div class = "originalPD"> 
+            <img id = "original-roll-PD" src = "../assets/products/original-cinnamon-roll.jpg" alt = "original-cinnamon-roll-product-details"/>
+        </div>
+  
+        <div class = "details-column">
+      <!-- Dropdowns -->
+            <p id = "details-desc">Customize our delicious, hand-made cinnamon roll to your liking!</p>
+            <div class = "dropdown"> 
+                <label for="choice">Glazing:</label>
+                <br>
+                <select name="flavor" id="choose-flavor">
+                <option value="original-flavor">Keep Original</option>
+                </select>
+                <br>
+                <br>
+                <label for="pack-size">Pack size:</label>
+                <br>
+                <select name="size" id="choose-size">
+                <option value="original-size">1</option>
+                </select>
+        
+            </div>
+        
+  
+      <!-- Add to Cart -->
+            <div class = "addtocart">
+                <p>$2.49</p>
+                <button id = "add"><a href="./cart.html">ADD TO CART</a></button>
+            </div>
+        
+        </div>    
+  
+    </div>
+
+
+  </body>
+  </html>
