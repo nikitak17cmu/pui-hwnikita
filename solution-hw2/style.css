@@ -27,6 +27,12 @@ a{
     flex-direction: column;
     align-items: flex-end;
 }
+.header-text{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-right: 500px;
+}
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -61,12 +67,12 @@ a{
     font-weight:bold;
     background-color: yellow;
 }
-.header-rolls{
+ .header-rolls{
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
     align-items: center;
     text-align: center;
-}
+} 
 
 /* PRODUCT GRID */
 
@@ -109,11 +115,13 @@ a{
     border: 2px solid #555;
     border-color: black;
     margin: 100px;
+
 }
 .details-row{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: -100px;
 
 }
 #details-desc{
