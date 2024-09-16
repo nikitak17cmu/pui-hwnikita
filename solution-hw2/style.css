@@ -13,6 +13,15 @@ a{
     color: black;
     text-decoration: none;
 }
+/* #desc{
+    gap: 100px;
+}*/
+#name{
+    text-decoration: underline;
+}
+/* #price{
+    /* padding-top: -200px; */
+
 #header-line{
     border: 3px solid black;
     width: 1000px;
@@ -115,6 +124,8 @@ a{
     border: 2px solid #555;
     border-color: black;
     margin: 100px;
+    margin-right: 100px;
+    margin-left: 175px;
 
 }
 .details-row{
@@ -122,7 +133,6 @@ a{
     flex-direction: row;
     align-items: center;
     margin-top: -100px;
-
 }
 #details-desc{
     font-family: Arial, Helvetica, sans-serif;
