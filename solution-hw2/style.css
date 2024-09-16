@@ -18,9 +18,11 @@ a{
 }*/
 #name{
     text-decoration: underline;
+    margin-bottom: 0px;
 }
-/* #price{
-    /* padding-top: -200px; */
+#price{
+    margin-top: 0px; 
+}
 
 #header-line{
     border: 3px solid black;
@@ -60,9 +62,6 @@ a{
     text-align: center;
     margin: 0 20px;
 }
-.navigation li a{
-   /* padding: 0 20px; */
-}
 #product-page{
     display: inline;
     padding: 0px;
@@ -81,10 +80,11 @@ a{
     background-color: yellow;
     font-weight: bold;
     display: inline;
-    /* padding:0;
-    margin:0;
-    white-space: nowrap;
-    text-align: left; */
+}
+#current-product-page{
+    background-color: yellow;
+    font-weight: bold;
+    display: inline;
 }
  .header-rolls{
     font-size: xx-large;
@@ -161,10 +161,16 @@ a{
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
 }
+
+#add{
+    background-color: yellow;
+    font-weight: bold;
+    outline: 2px solid black;
+}
 #add:hover{
     font-weight: bold;
     outline: 2px solid black;
-    background-color: yellow;
+    background-color: darkgoldenrod;
   }
 
   /* CART */
