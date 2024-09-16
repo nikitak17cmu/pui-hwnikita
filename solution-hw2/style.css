@@ -58,9 +58,10 @@ a{
     list-style: none;
     flex-grow: 1;
     text-align: center;
+    margin: 0 20px;
 }
 .navigation li a{
-   padding: 0 20px;
+   /* padding: 0 20px; */
 }
 #product-page{
     display: inline;
@@ -75,6 +76,15 @@ a{
     display: inline;
     font-weight:bold;
     background-color: yellow;
+}
+#current-cart-page{
+    background-color: yellow;
+    font-weight: bold;
+    display: inline;
+    /* padding:0;
+    margin:0;
+    white-space: nowrap;
+    text-align: left; */
 }
  .header-rolls{
     font-size: xx-large;
