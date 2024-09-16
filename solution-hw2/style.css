@@ -85,7 +85,7 @@ a {
 }
 
 /* PRODUCT GRID */
-#original-roll {
+.original-roll {
   width: 285px;
   height: 285px;
   border: 2px solid #555;
@@ -111,15 +111,15 @@ a {
   background-color: yellow;
   cursor: pointer;
 }
-.roll:hover #name {
+.roll:hover .name {
   font-weight: bold;
 }
 /* Product info */
-#name {
+.name {
   text-decoration: underline;
   margin-bottom: 0px;
 }
-#price {
+.price {
   margin-top: 5px;
 }
 
@@ -187,7 +187,7 @@ a {
   margin-bottom: 100px;
 }
 
-#remove-original {
+.remove-original {
   font-weight: bold;
   text-decoration: underline;
 }
