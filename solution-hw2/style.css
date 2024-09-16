@@ -230,7 +230,7 @@ a {
 /* Price and checkout */
 .checkout-main {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 #checkout {
   display: flex;
