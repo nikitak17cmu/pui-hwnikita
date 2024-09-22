@@ -146,6 +146,13 @@ a {
 .dropdown {
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
+  margin-top: 50px;
+}
+select{
+  width: 200px;
+  height: 30px;
+  border: 2px solid black;
+  font-size: medium;
 }
 /* Add to cart */
 .addtocart {
@@ -156,6 +163,7 @@ a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: large;
   font-weight: bold;
+  margin-top: 50px;
 }
 #add {
   padding: 10px;
