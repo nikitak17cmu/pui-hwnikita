@@ -1,6 +1,5 @@
 //Base Price - Keep original, 1 pack size
 const basePrice = 2.49;
-
 //Glazig Optios + Price Change
 let glazingOptions = [
   {
@@ -20,7 +19,6 @@ let glazingOptions = [
     extraCostGlaze: 1.5,
   },
 ];
-
 //Pack Optios + Price Change
 let packSize = [
   {
@@ -40,8 +38,7 @@ let packSize = [
     extraCostPack: 10,
   },
 ];
-
-// Populating Glazing Flavor Optios
+// Populating Glazing Flavor Optios - Source HW Example Document
 const glaze = document.querySelector("#choose-flavor");
 for (let i = 0; i < glazingOptions.length; i++) {
   const dropdownOption = glazingOptions[i];
@@ -50,8 +47,7 @@ for (let i = 0; i < glazingOptions.length; i++) {
   choice.value = dropdownOption.extraCostGlaze;
   glaze.add(choice);
 }
-
-// Populating Pack Size Options
+// Populating Pack Size Options - Source HW Example Document
 const pack = document.querySelector("#choose-size");
 for (let i = 0; i < packSize.length; i++) {
   const dropdownOption = packSize[i];
@@ -60,22 +56,19 @@ for (let i = 0; i < packSize.length; i++) {
   choice.value = dropdownOption.extraCostPack;
   pack.add(choice);
 }
-
-//Update Selectio Price
+//Update Selection Price - Source HW Example Document
 function glazingChange() {
+  //Pull selections
   const currentGlaze = document.getElementById("choose-flavor");
   const priceChangeGlaze = currentGlaze.value;
-  //console.log("Extra Glaze Price: " + priceChangeGlaze);
-
   const currentPack = document.getElementById("choose-size");
   const priceChangePack = currentPack.value;
-  //console.log("Extra Pack Price: " +priceChangePack);
 
+  //Calculate pricing
   const glazeNumber = Number(priceChangeGlaze);
   const packNumber = Number(priceChangePack);
   let price = (basePrice + glazeNumber) * packNumber;
   let priceRounded = price.toFixed(2);
-  console.log(price);
   let glazePrice = document.getElementById("updated-price");
   glazePrice.innerHTML = "$" + priceRounded;
 }
