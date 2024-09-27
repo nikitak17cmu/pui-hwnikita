@@ -1,11 +1,11 @@
 const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
+//give rollType default value and then assign it (change it)
+//if rollType is null, then innerhtml this, else 
 const rollType = params.get("roll");
-
 
 //Base Price - Keep original, 1 pack size
 //const basePrice = 2.49;
-
 
 //Glazig Optios + Price Change
 let glazingOptions = [
