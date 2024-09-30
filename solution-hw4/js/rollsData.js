@@ -52,10 +52,11 @@ class Roll {
     }
 }
 
+let cartArray = [];
 //https://stackoverflow.com/questions/1085801/get-selected-value-in-dropdown-list-using-javascript
 function changeCart()
 {
-    let cartArray = [];
+    //let cartArray = [];
     const rollGlazing = document.getElementById("choose-flavor")
     const rollGlazingValue = rollGlazing.options[rollGlazing.selectedIndex];
     const rollGlazingText = rollGlazingValue.text;
