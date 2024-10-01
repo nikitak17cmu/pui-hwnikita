@@ -42,7 +42,7 @@ document.querySelector("#original-roll-PD").src = whichRoll.imageFile;
 const changeBasePrice = document.querySelector("#updated-price");
 changeBasePrice.innerHTML = "$" + whichRoll.basePrice;
 
-
+//Add to cart
 class Roll {
     constructor(rollType, rollGlazing, packSize, basePrice) {
         this.type = rollType;
@@ -51,21 +51,16 @@ class Roll {
         this.basePrice = basePrice;
     }
 }
-
 let cartArray = [];
-//https://stackoverflow.com/questions/1085801/get-selected-value-in-dropdown-list-using-javascript
+//Source - https://stackoverflow.com/questions/1085801/get-selected-value-in-dropdown-list-using-javascript
 function changeCart()
 {
-    //let cartArray = [];
     const rollGlazing = document.getElementById("choose-flavor")
     const rollGlazingValue = rollGlazing.options[rollGlazing.selectedIndex];
-    const rollGlazingText = rollGlazingValue.text;
-    // const rollGlazing = document.getElementById("choose-flavor").innerHTML;
-  
+    const rollGlazingText = rollGlazingValue.text;  
     const packSize = document.getElementById("choose-size")
     const packSizeValue = packSize.options[packSize.selectedIndex];
     const packSizeText = packSizeValue.text;
-    // const packSize = document.getElementById("choose-size").value;
     const basePrice = whichRoll.basePrice;
     const printRoll = new Roll(rollType, rollGlazingText, packSizeText, basePrice);
 

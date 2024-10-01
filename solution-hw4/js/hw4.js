@@ -2,10 +2,7 @@ const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 const rollType = params.get("roll");
 
-//Base Price - Keep original, 1 pack size
-//const basePrice = 2.49;
-
-//Glazig Optios + Price Change
+//Glazing Options + Price Change
 let glazingOptions = [
   {
     name: "Keep original",
