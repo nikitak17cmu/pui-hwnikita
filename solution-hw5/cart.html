@@ -3,7 +3,10 @@
   <meta charset="UTF-8" />
   <head>
     <title>Cart</title>
-    <link rel="stylesheet" href="../solution-hw3/css/style.css" />
+    <link rel="stylesheet" href="../solution-hw5/css/style.css" />
+    <!-- <script src="../solution-hw5/js/hw4.js" defer></script>
+    <script src="../solution-hw5/js/rollsData.js" defer></script> -->
+    <script src="../solution-hw5/js/hw5.js" defer></script>
   </head>
   <body>
     <!-- Header -->
@@ -23,51 +26,31 @@
 
     <!-- Cart -->
     <div class="cart-items">
-      <div class="original-main">
+      <template id = "roll-template">
+        <div class="original-main">
         <div class="original-row-info">
           <div id="original-cart">
             <img
               id="original-roll-cart"
-              src="../assets/products/original-cinnamon-roll.jpg"
-              alt="original-cinnamon-roll"
+              src=""
+              alt="cinnamon-roll"
             />
             <p class="remove-original">Remove</p>
           </div>
           <div id="original-cart-text">
-            <p>
-              Original cinnamon roll<br /><br />
-              Glazing: Keep original<br /><br />
-              Pack Size: 1
-            </p>
+            <p class = "roll-name"></p>
+            <p class = "roll-glaze"></p>
+            <p class = "roll-pack"></p>
           </div>
         </div>
         <div class="original-row-price">
           <p>$2.49</p>
         </div>
-      </div>
+        </div>
+      </template>
+    
       <br />
-      <div class="ddc-main">
-        <div class="ddc-row-info">
-          <div id="ddc-cart">
-            <img
-              id="ddc-roll-cart"
-              src="../assets/products/double-chocolate-cinnamon-roll.jpg"
-              alt="double-chocolate-cinnamon-roll"
-            />
-            <p class="remove-original">Remove</p>
-          </div>
-          <div id="ddc-cart-text">
-            <p>
-              Double-chocolate cinnamon roll<br /><br />
-              Glazing: Sugar Milk<br /><br />
-              Pack Size: 6
-            </p>
-          </div>
-        </div>
-        <div class="ddc-row-price">
-          <p>$27.45</p>
-        </div>
-      </div>
+      
       <div class="checkout-main">
         <!-- Checkout -->
         <div id="checkout">
@@ -75,7 +58,7 @@
           <div id="total-checkout">
             <div class="checkout-row">
               <p>Total</p>
-              <p>$29.94</p>
+              <p class = "cart-total"></p>
             </div>
             <div class="button-row">
               <button id="checkout-button">CHECKOUT</button>
@@ -86,3 +69,69 @@
     </div>
   </body>
 </html>
+
+<!-- <div class="cart-items">
+  <div class="original-main">
+    <div class="original-row-info">
+      <div id="original-cart">
+        <img
+          id="original-roll-cart"
+          src="../assets/products/original-cinnamon-roll.jpg"
+          alt="original-cinnamon-roll"
+        />
+        <p class="remove-original">Remove</p>
+      </div>
+      <div id="original-cart-text">
+        <p>
+          Original cinnamon roll<br /><br />
+          Glazing: Keep original<br /><br />
+          Pack Size: 1
+        </p>
+      </div>
+    </div>
+    <div class="original-row-price">
+      <p>$2.49</p>
+    </div>
+  </div>
+  <br />
+  <div class="ddc-main">
+    <div class="ddc-row-info">
+      <div id="ddc-cart">
+        <img
+          id="ddc-roll-cart"
+          src="../assets/products/double-chocolate-cinnamon-roll.jpg"
+          alt="double-chocolate-cinnamon-roll"
+        />
+        <p class="remove-original">Remove</p>
+      </div>
+      <div id="ddc-cart-text">
+        <p>
+          Double-chocolate cinnamon roll<br /><br />
+          Glazing: Sugar Milk<br /><br />
+          Pack Size: 6
+        </p>
+      </div>
+    </div>
+    <div class="ddc-row-price">
+      <p>$27.45</p>
+    </div>
+  </div>
+  <div class="checkout-main">
+     Checkout 
+    <div id="checkout">
+      <hr id="checkout-line" />
+      <div id="total-checkout">
+        <div class="checkout-row">
+          <p>Total</p>
+          <p>$29.94</p>
+        </div>
+        <div class="button-row">
+          <button id="checkout-button">CHECKOUT</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html> -->
+
