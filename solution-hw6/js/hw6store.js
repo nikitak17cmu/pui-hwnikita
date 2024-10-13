@@ -24,7 +24,6 @@ function retrieveFromLocalStorage() {
     for (const rollData of rollArray) {
       const roll = new Roll(rollData.type, rollData.glazing, rollData.size, rollData.basePrice);
       rollSet.add(roll);
-      //console.log(rollArray);
       //createElement(roll);
     }
 }
