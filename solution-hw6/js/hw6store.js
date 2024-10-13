@@ -1,5 +1,6 @@
 //let rollSet = new Set();
 //let cartArray = [];
+
 if (localStorage.getItem('storedCart') != null) {
     retrieveFromLocalStorage();
   }
@@ -17,14 +18,22 @@ function saveToLocalStorage() {
 function retrieveFromLocalStorage() {    
     const rollArrayString = localStorage.getItem('storedCart');
     const rollArray = JSON.parse(rollArrayString);
-    // rollSet = new Set(rollArray);
-    console.log(rollArray);
+     //rollSet = new Set(rollArray);
+    //console.log("array storage" + rollArray);
+    //console.log("hi");
     for (const rollData of rollArray) {
       const roll = new Roll(rollData.type, rollData.glazing, rollData.size, rollData.basePrice);
       rollSet.add(roll);
-      createElement(roll);
+      //console.log(rollArray);
+      //createElement(roll);
     }
 }
+
+for(const rollElement of rollSet){
+    createElement(rollElement);
+}
+
+
 
 
 //push cart array from rolls data into local storage with save to local storage 

@@ -93,8 +93,8 @@ function getCurrentPack() {
   return selectedPackOption;
 }
 
-document.addEventListener("DOMContentLoaded", function(){
-  console.log("Dom working");
+// document.addEventListener("DOMContentLoaded", function(){
+//   console.log("Dom working");
   document.getElementById("add").addEventListener("click", function () {
     console.log("button pushed");
     glazingChange();
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function(){
     console.log(rollSet);
     saveToLocalStorage();
   });
-  });
+  // });
 
 //event listener for add to cart button "click"
 //roll set.add new Roll (rolltype...)
