@@ -1,9 +1,6 @@
 const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 let rollType = params.get("roll");
-
-// let currentGlaze;
-//let currentPack;
 let basePrice;
 
 //Glazing Options + Price Change
@@ -93,20 +90,12 @@ function getCurrentPack() {
   return selectedPackOption;
 }
 
-// document.addEventListener("DOMContentLoaded", function(){
-//   console.log("Dom working");
-  document.getElementById("add").addEventListener("click", function () {
-    console.log("button pushed");
-    glazingChange();
-    rollSet.add(new Roll(rollType, getCurrentGlaze().name, getCurrentPack().name, basePrice));
-    //console.log(currentGlaze);
-    console.log(rollSet);
-    saveToLocalStorage();
-  });
-  // });
-
-//event listener for add to cart button "click"
-//roll set.add new Roll (rolltype...)
-//save to local storage
-//sending this to cart
-//call savetolocal storage
+document.getElementById("add").addEventListener("click", function () {
+  console.log("button pushed");
+  glazingChange();
+  rollSet.add(
+    new Roll(rollType, getCurrentGlaze().name, getCurrentPack().name, basePrice)
+  );
+  //console.log(rollSet);
+  saveToLocalStorage();
+});
