@@ -91,11 +91,9 @@ function getCurrentPack() {
 }
 
 document.getElementById("add").addEventListener("click", function () {
-  console.log("button pushed");
   glazingChange();
   rollSet.add(
     new Roll(rollType, getCurrentGlaze().name, getCurrentPack().name, basePrice)
   );
-  //console.log(rollSet);
   saveToLocalStorage();
 });
