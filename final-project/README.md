@@ -201,9 +201,15 @@ How would you use Generative AI responsibly?
 # **FP1 \- Proposal for Critique**
 
 ## Idea Sketches
+
+### *Music Map*
 <img width="576" alt="Screenshot 2024-10-27 at 11 36 46 PM" src="https://github.com/user-attachments/assets/4e687ae3-6cf2-4be5-8c31-c6ccfd1434d9">
+
+### *Art Exhibition*
 <img width="328" alt="Screenshot 2024-10-28 at 11 01 03 PM" src="https://github.com/user-attachments/assets/27796265-1a4b-4c91-be64-52db35416e03">
 <img width="343" alt="Screenshot 2024-10-28 at 11 01 18 PM" src="https://github.com/user-attachments/assets/f39be422-ceea-48b3-aef1-8b9b67b68020">
+
+### *Indian Classical Dance Gallery*
 <img width="932" alt="Screenshot 2024-10-28 at 11 00 07 PM" src="https://github.com/user-attachments/assets/4ea3e32e-ba70-41bd-b7e2-cc609c385b70">
 
 
