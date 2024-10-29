@@ -216,6 +216,7 @@ How would you use Generative AI responsibly?
 ### *Idea 1*
 
 Music Map:
+
 What is the basic idea of your final project?
 - A collaborative platform for users to anonymously share songs that evoke memories of specific locations.
 How do you plan to make your design interactive and engaging?
@@ -230,6 +231,8 @@ What information do you specifically want to convey and include on your website?
 
 ### *Idea 2*
 
+Art Exhibition
+
 What is the basic idea of your final project?
 - Create a personal webpage showcasing my artwork, while making a website that is art in itself.
 How do you plan to make your design interactive and engaging?
@@ -242,6 +245,8 @@ What information do you specifically want to convey and include on your website?
 
 
 ### *Idea 3*
+
+Indian Classical Dance Gallery
 
 What is the basic idea of your final project?
 - An interactive website that introduces users to Indian classical dance. 
