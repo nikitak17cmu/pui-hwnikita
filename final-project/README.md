@@ -204,6 +204,7 @@ How would you use Generative AI responsibly?
 
 ### *Music Map*
 <img width="576" alt="Screenshot 2024-10-27 at 11 36 46 PM" src="https://github.com/user-attachments/assets/4e687ae3-6cf2-4be5-8c31-c6ccfd1434d9">
+<img width="125" alt="Screenshot 2024-10-28 at 11 41 51 PM" src="https://github.com/user-attachments/assets/0705ca87-96a5-4b76-9393-f005663225c4">
 
 ### *Art Exhibition*
 <img width="328" alt="Screenshot 2024-10-28 at 11 01 03 PM" src="https://github.com/user-attachments/assets/27796265-1a4b-4c91-be64-52db35416e03">
@@ -218,17 +219,21 @@ How would you use Generative AI responsibly?
 Music Map:
 
 What is the basic idea of your final project?
+
 A collaborative platform for users to anonymously share songs that evoke memories of specific locations.
 
 How do you plan to make your design interactive and engaging?
+
 The design of the site would be similar to the Unsent Project. However, on this page, users can search a certain location   and see all the results.
 Use p5 library to create visuals that respond to user interaction on each “card,” like hovering or selecting locations.
 
 How do you plan to make your design accessible?
+
 The information will be presented using clear, legible text. The design of the cards will be easy to read. The navigation will also be simple. 
 I can use a library that allows me to incorporate text-to-speech. 
 
 What information do you specifically want to convey and include on your website?
+
 The website will have location-based song entries with a description that users input. It allows users to search names of cities and find music that others have added that reminds them of that specific place. The entries & searches are all anonymous. 
 
 
@@ -237,16 +242,20 @@ The website will have location-based song entries with a description that users 
 Art Exhibition
 
 What is the basic idea of your final project?
+
 Create a personal webpage showcasing my artwork, while making a website that is art in itself.
 
 How do you plan to make your design interactive and engaging?
+
 I will use p5 and Processing to add dynamic, generative elements to each page, such as animations and visuals that respond to user input. 
 
 How do you plan to make your design accessible?
+
 I will incorporate clear navigation, readable text, alt descriptions for any visual images. 
 If possible, I may also make sure that some of the elements can be accessed using the arrow keys. 
 
 What information do you specifically want to convey and include on your website?
+
 I want to convey the inspiration and personal stories behind each artwork in a way that is fun and interactive for those seeing it. My artwork is currently displayed in a very plain, static way on my main portfolio. 
 
 
@@ -255,17 +264,21 @@ I want to convey the inspiration and personal stories behind each artwork in a w
 Indian Classical Dance Gallery
 
 What is the basic idea of your final project?
+
 An interactive website that introduces users to Indian classical dance. 
 Show users elements like a gallery, sound bites, costumes, practices, etc. 
 
 How do you plan to make your design interactive and engaging?
+
 I will use the p5 library and Processing to create animations and visual elements, such as sound visualizations, dance movements, and color visualizations. 
 Additionally, I want to make it interactive by using parallax scrolling.
 
 How do you plan to make your design accessible?
+
 I will ensure that any images I input have alt text. Any text on the page will be legible. I will also be using high contrast visuals.
 
 What information do you specifically want to convey and include on your website?
+
 I would like to show users the beauty and history of Indian classical dance, and go in depth into aspects that are more unknown, such as fundamentals, hand gestures, expressions, costuming, etc. I would also like to explain the cultural significance of each element. 
 
 
