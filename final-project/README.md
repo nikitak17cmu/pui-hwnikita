@@ -131,7 +131,7 @@ My project is an art exhibition designed to showcase my personal artwork that is
 
 ### *Prototype 1*
 
-<img width="98" alt="Screenshot 2024-11-04 at 10 31 58 PM" src="https://github.com/user-attachments/assets/ece3b89b-b7e0-4bed-9cab-e6523ec3b8a6">
+<img width="97" alt="Screenshot 2024-11-04 at 10 31 45 PM" src="https://github.com/user-attachments/assets/d5ed7a2b-8ea5-48af-bdfb-33becf83f1d9">
 
 Description: 
 
@@ -144,7 +144,7 @@ For this page I wanted to understand how users interact with and explore the art
 
 ### *Prototype 2*
 
-<img width="97" alt="Screenshot 2024-11-04 at 10 31 45 PM" src="https://github.com/user-attachments/assets/d5ed7a2b-8ea5-48af-bdfb-33becf83f1d9">
+<img width="98" alt="Screenshot 2024-11-04 at 10 31 58 PM" src="https://github.com/user-attachments/assets/ece3b89b-b7e0-4bed-9cab-e6523ec3b8a6">
 
 Description: 
 
