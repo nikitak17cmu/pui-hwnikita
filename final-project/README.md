@@ -148,7 +148,8 @@ For this page I wanted to understand how users interact with and explore the art
 
 ### *Interactivity*
 
-https://github.com/user-attachments/assets/43359ffc-b696-4809-8fca-35b3fc4d5424
+
+https://github.com/user-attachments/assets/af0b5ff5-5ed4-45ba-b764-20ab4e79bbbc
 
 
 Description: 
