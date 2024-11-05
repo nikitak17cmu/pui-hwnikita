@@ -125,8 +125,7 @@ Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-gener
 
 ## Project Description
 
-Briefly restate your motivation and a short description of your project.
-
+My project is an art exhibition designed to showcase my personal artwork that is both engaging for viewers and flexible for future updates. This digital gallery will offer viewers an immersive experience, as each ‘collection page’ will explore background stories and provide some additional resources that add context and depth. I want to create a platform that is dynamic and grows with my work, providing me with a way to display my artwork in a way that’s not exactly like the static nature of a portfolio.
 ## High-Fi Prototypes
 
 ### *Prototype 1*
@@ -141,7 +140,10 @@ A brief description and summary of the user feedback (\<100 words, 2 images)
 
 ## Usability Test
 
-Discuss the user feedback you got during the evaluation / usability test (\~300 words). Indicate which feedback you implemented, inspired new directions, or otherwise influenced your final design. 
+After creating my first prototype iterations, I did a usability test for my interactive art gallery. I conducted a Think Aloud Protocol and semi-structured interview, where I received crucial feedback that shaped my designs and provided me with valuable ideas for design updates. 
+Within the landing page, both participants noted that they appreciated the gallery’s “sketch style.” One participant mentioned that they believed there was a sense of mystery and intrigue that was created using this style. Both participants mentioned that they would want more context or personality on the landing page, either through a description or a quirky addition to the header. Due to this, I changed the header to ‘Works of Progress’ and added ‘What I do when I'm not designing the human experience.’ This tells the viewer about who I am and what I do outside of the artwork, tying it into my academic and professional life. One participant suggested that they would appreciate some sort of context about each project, but I decided not to adjust my design to incorporate this feedback. I believe that it took away from the intention on this page, so I decided to include this information on my collection details page instead. 
+A recurring suggestion was to incorporate color somehow onto the page, so I had an idea to create a cursor effect that mimics a digital drawing tool, enhancing the interactivity and user experience. 
+Within the collection detail page, participants felt that the images should be laid out in a gallery style rather than in a structured grid. I decided to incorporate this feedback and create a more interesting layout. Additionally, one participant felt that the background color was too dark and lowered the visibility and accessibility of the page. Due to this, I replaced the background on this page with a lighter one to better showcase the artwork. As I mentioned before, I also added information about the medium of collection, the context of the collection, and used a hover state to show the titles of the individual paintings. 
 
 ## Updated Designs
 
@@ -149,28 +151,55 @@ Show screenshots of your updated design based on the user feedback (\<100 words,
 
 ## Feedback Summary
 
-Summarize the feedback you received in the lab session and discuss how it influenced your design (\~300 words). 
+During the lab we did “speed dating” style feedback sessions where I received valuable feedback that has guided my next design decisions.
+Within the landing page, I received feedback that stated that my collection sections may be a bit too close to each other, and it was suggested that I space them apart a bit more in order to enhance clarity. Additionally, one peer mentioned that I should move my first collection section higher up on the page a bit to show the viewer a “peek” of it, which tells them to scroll down. I plan to incorporate both of these pieces of feedback for my final design. A participant appreciated the animation of the brush strokes, but suggested that I create an interactive element within the sketches. Inspired by this, I proposed a subtle hover effect on each page, where under the user’s cursor, each black and white sketch would show the colored/actual version of the image, creating a pixel coloring book feel. However, after speaking to the TA about my idea, I have decided that this will be a “nice to have” element due to the timeline of the project. 
+One participant noted that normally I use the name ‘Niki’ in my day to day life, and suggested that I change the name on the page to this for a more approachable and personal touch, which I agree with. 
+Within the collection details page, two peers commented that the ‘medium’ and ‘context’ aspects of the page seem like buttons to users, which is misleading. Due to this, I plan to redesign these in order to make them look less clickable and more like section headers. One reviewer expressed concern in consistency within the separate pages, as the idea behind each gallery page is to be a separate experience. To answer this, I decided to standardize the header, titles, and design of the medium and context section on each collection page. 
 
 ## Milestones
 
-Outline weekly milestones to plan your expected implementation progress until the end of the semester (\~300 words). 
+During the first week, I would like to finalize the design based on feedback from usability tests and lab sessions. There are many elements within the feedback that I would like to incorporate and see if it’s feasible or not. Once the designs are done, I will begin coding and create the basic framework for all the pages. I want to ensure that I have established the structural layout and included the initial connections between pages. This will serve as my foundation for the website. 
+In the second week, my focus will be on building out two of the collection detail pages, ensuring that I include images, descriptions, and any styling elements that pertain to that particular page. I will also include navigation elements that will allow me to travel smoothly between pages, increasing its functionality. 
+In the third week, I want to add any remaining collection detail pages and begin working on animation and interactive elements to make the pages more dynamic. I will begin by starting the brush stroke animations. I will also research how I may add in gallery animation elements to the collection pages. 
+In the next week, I will continue to refine interactions and animations across the site, focusing mainly on collection detail pages. I want to ensure that all interactive components are functioning smoothly. I would also like to finalize any missing design elements on this page, aiming for a polished look. 
+During the final week, I would like to use this as a buffer time to address any issues that may have arisen or fallen behind schedule. I’ll use this period for any last-minute adjustments and finishing touches. If everything is on track, schedule-wise, I can also use this time to add any extra elements such as cursor animations and hover effects to further enhance interactivity of the gallery. 
+This timeline will allow me to stay organized and provides me with some extra time that may be needed due to unforeseen circumstances. 
+ 
 
 ### *Implementation Plan*
 
 - [ ] Week 9 Oct 28 \- Nov 1:
   - [X] FP1 due
-  - [ ] ...
   
 - [ ] Week 10 Nov 4 \- Nov 8:   
   - [ ] FP2 due
-
-- [ ] Week 11 Nov 11 \- Nov 15:  
-- [ ] Week 12 Nov 18 \- Nov 22:   
-- [ ] Week 13 Nov 25 \- Nov 29:  
-
-  - [ ] Thanksgiving  
+  - [ ] Review feedback from lab sessions
+  - [ ] Finalize designs
+  - [ ] Create basic framework of webpage
+        
+- [ ] Week 11 Nov 11 \- Nov 15:
+  - [ ] FP3 due
+  - [ ] Finish framework of two collection detail pages.
+  - [ ] Add in content for two collection detail pages.
+  - [ ] Implement navigation interaction between the pages.
+     
+- [ ] Week 12 Nov 18 \- Nov 22:
+  - [ ] Finish remaining collection detail pages.
+  - [ ] Start working on animations and interactivity.
+         
+- [ ] Week 13 Nov 25 \- Nov 29:
+  - [ ] Continue refining interactions and animations across the site.
+  - [ ] Ensure that all interactive components function smoothly.
+  - [ ] Finalize any missing content elements on collection detail pages.
+  - [ ] 80% polished webpage.
+  - [ ] Thanksgiving
+        
 - [ ] Week 14 Dec 2 \- Dec 6:  
-  - [ ] FP4 due 
+  - [ ] FP4 due
+  - [ ] Address any issues that arise/elements not done due to falling behind schedule.
+  - [ ] Finalize last minute adjustments and finishing touches.
+  - [ ] Ensure that design works for multiple screens.
+  - [ ] If time permits (not necessary for final), add in extra elements such as cursor animations or hover effects.  
 
 ### *Libraries and Other Components*
 
