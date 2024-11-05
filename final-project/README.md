@@ -146,6 +146,11 @@ For this page I wanted to understand how users interact with and explore the art
 
 <img width="98" alt="Screenshot 2024-11-04 at 10 31 58 PM" src="https://github.com/user-attachments/assets/ece3b89b-b7e0-4bed-9cab-e6523ec3b8a6">
 
+### *Interactivity*
+
+https://github.com/user-attachments/assets/43359ffc-b696-4809-8fca-35b3fc4d5424
+
+
 Description: 
 
 This prototype screen shows an art collection detail page. This page provides viewers with a description of the background behind the collection, giving them some context. Additionally, each page is themed to match the collection’s style - for example, if a collection is colorful, that detail page will have vibrant, colorful backgrounds, creating a more immersive experience, and replicating an exhibition style theme. 
@@ -171,21 +176,23 @@ Within the collection detail page, participants felt that the images should be l
 
 These are the updated designs. I edited the designs to incorporate user feedback. Collection thumbnails and titles are farther apart, to make it clear to viewers that they are separate. Additionally, I moved the first sketch higher on the page in order to hint at more content on the screen. I also added a bit of information about myself to the title, and changed the text to make it more engaging and personal. On the collection detail page, I brightened up the background color of art gallery page to make the aesthetics better. I added the type of medium and made the description more concise. I also added a hover state that shows user title of the individual paintings.
 
-<img width="211" alt="Screenshot 2024-11-04 at 11 00 58 PM" src="https://github.com/user-attachments/assets/12b8fd5e-d9d2-4503-9737-d2567be35d88">
 
-This is the visual for the cursor trail feature that I might implement. 
-
-User Interactions:
+User Interaction in Prototype:
 
 - Users can click into art gallery pages using the landing page. 
 - Users can go back to homepage by clicking ‘Home’ and ‘by Nikita’
 - Users can hover over the artwork to see it’s title/other information 
 - On certain pages the artwork layout will be interactive. 
-- The landing page will have animations.
-- The user’s cursor will have an interactive element.
 
 <img width="665" alt="Screenshot 2024-11-04 at 11 02 17 PM" src="https://github.com/user-attachments/assets/2d0d3ae0-6563-44f7-ad29-de591ee78aff">
 
+User Interaction Using Code:
+- The landing page will have animations.
+- The user’s cursor will have an interactive element.
+
+<img width="211" alt="Screenshot 2024-11-04 at 11 00 58 PM" src="https://github.com/user-attachments/assets/12b8fd5e-d9d2-4503-9737-d2567be35d88">
+
+This is the visual for the cursor trail feature that I might implement. 
 
 ## Feedback Summary
 
