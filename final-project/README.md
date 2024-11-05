@@ -168,12 +168,12 @@ This timeline will allow me to stay organized and provides me with some extra ti
 
 ### *Implementation Plan*
 
-- [ ] Week 9 Oct 28 \- Nov 1:
+- [X] Week 9 Oct 28 \- Nov 1:
   - [X] FP1 due
   
 - [ ] Week 10 Nov 4 \- Nov 8:   
-  - [ ] FP2 due
-  - [ ] Review feedback from lab sessions
+  - [X] FP2 due
+  - [X] Review feedback from lab sessions
   - [ ] Finalize designs
   - [ ] Create basic framework of webpage
         
@@ -203,27 +203,41 @@ This timeline will allow me to stay organized and provides me with some extra ti
 
 ### *Libraries and Other Components*
 
-List the JS libraries and other components (if applicable) that you plan to use. 
-* 
+Brushstroke Animation: p5.js or Processing.js
+Carousel and Gallery Layouts: Swiper.js 
+(Maybe) Cursor Trail Animation and Hover Animations: GSAP, Hover.css, p5.js
 
+- These are all subject to change if I find better libraries to use as I am coding.
 
-## Generative AI Use Plan
+## Generative AI Use Plan 
 
-Outline how you plan to use Generative AI tools to aid in the implementation (\~300 words).
+I will be using GenAI tools as assets to aid me in creating a robust, interactive version of my gallery project. It will help me streamline and create content for the collection detail pages. However, I want to ensure that I use these tools without compromising the artistic style and the true meaning behind each of the artworks. Additionally, I will use GenAI tools in order to explore potential libraries and features, as well as learn how I may implement them in different parts of my website. I am committed to using these tools to aid me in efficiency while ensuring that I am handling the core tasks myself. To ensure best practices, I will check with my TA to ensure that all of this AI usage is allowed. 
 
 ### *Tool Use*
 
- What would you use? Edit the list given your plan. For each tool, explain briefly on what do you expect Generative AI to help you with and what might it not be able to help you with.
+* ChatGPT
+  
+I will use ChatGPT to generate concise descriptions for each gallery page. I want to give users background information on the collections or individual pieces. By using this tool to craft this part of the site, I will be able to ensure that I am maintaining consistency across descriptions without spending too much time on each. 
 
-* ChatGPT  
-  * I will use it for … because it can help me …  
-  * I will not use it for … because it might not be able to help me with …   
-* GitHub Copilot  
-* ...
+I will also use ChatGPT to guide me as I explore libraries and frameworks for my site’s interactive elements. For example, on the landing page, I have brushstroke animations that I am a bit unsure of how to implement. ChatGPT can guide me to the correct resources, helping me to broaden my knowledge and options. 
+  
+* GitHub Copilot
+  
+I will use copilot to increase my efficiency when coding. This tool will offer me suggestions for certain, simple parts of the website and will correct any syntax errors. This will ensure that I can focus on completing the website rather than spending large amounts of time on debugging simple mistakes. It will also be helpful in setting up initial structures and basic code. 
+
+I will not use copilot to simply write my code for me. I want to ensure that the code comes from my own understanding and design choices. Although it will be a tool that will provide me with support, it will not craft the bigger elements within my code. 
+
+* Figma
+
+I will use Figma’s generative features like Smart Animate to preview animations, navigation interactions, and other elements on the page. This tool allows me to quickly test visual effects prior to implementing it into the code.
+
+I will use Figma’s generative features to create background gradients and fill visuals to tell a thematic story within the collection pages.  
+
+I will not use Figma’s generative system to complete the designs for me, as I would like to ensure that they are personal and display my experience as a human computer interaction designer. 
 
 ### *Responsible Use*
 
-How would you use Generative AI responsibly? 
+To ensure that I am using these tools responsibly, I won’t rely on AI to write code or create any artwork for the art gallery. As an artist, there is a large amount of stigma surrounding using generative tools to create artwork or visuals, and I would like to ensure that any artwork that I use is my original work. Additionally, rather than directly using anything that the generative tools give me, I will use its outputs to inspire my work, and I will double check all outputs for relevance and accuracy. 
 
 ---
 
