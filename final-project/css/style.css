@@ -1,0 +1,341 @@
+.header-full{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 2;
+}
+.by-Niki{
+    margin: 0;
+    cursor: pointer;
+    font-family: "Itim", cursive;
+    font-size: 1.2rem;
+}
+.navigation{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: "Itim", cursive;
+    font-size: 1.2rem;
+}
+.navigation li {
+    cursor:pointer;
+}
+#works-page-current{
+    text-decoration: underline;
+}
+#aboutme-page-current{
+    text-decoration: underline;
+}
+.works-body a{
+    color: black;
+    text-decoration: none;
+}
+.works-body a:visited{
+    color: black;
+    text-decoration: none;
+}
+.works-body a{
+    color: black;
+    text-decoration: none;
+}
+.works-body a:visited{
+    color: black;
+    text-decoration: none;
+}
+.about-me-body a{
+    color: black;
+    text-decoration: none;
+}
+.about-me-body a:visited{
+    color: black;
+    text-decoration: none;
+}
+.hue-and-you-body a{
+    color: white;
+    text-decoration: none;
+}
+.hue-and-you-body a:visited{
+    color: white;
+    text-decoration: none;
+}
+.reveries-body a{
+    color: black;
+    text-decoration: none;
+}
+.everies-body a:visited{
+    color: black;
+    text-decoration: none;
+}
+
+/* Intro/tagline */
+.intro{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+.intro-main-text{
+    font-size: 3.5rem;
+    margin: 0 0 1rem 0;
+    /* font-family: g; */
+    font-family: "Averia Sans Libre", sans-serif;
+    /* font-weight: bold; */
+}
+.intro-sub-text{
+    font-family: "Itim", cursive;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-left: 5px;
+}
+/* Art Gallery Thumbnails */
+.thumbnails{
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    padding: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.thumbnails img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    cursor: pointer;
+}
+.hue-and-you{
+    align-self: flex-start;
+    width:80%
+}
+.reveries{
+    align-self: flex-end;
+    width: 80%;
+}
+.in-a-silent-room{
+    align-self:flex-start;
+    width:80%
+}
+.blue-mold{
+    align-self:center;
+    width: 70%
+}
+.mehndi{
+    align-self: flex-start;
+    margin-left: 15%;
+    width:75%
+}
+/* About Me */
+.about-page-content{
+    position: relative;
+    background-color:black;
+    padding: 3rem;
+    margin-top: 2rem;
+    width:100%;
+    box-sizing: border-box;
+}
+.about-me-section{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.top-section{
+    display: flex;
+    gap: 7rem;
+    align-items: flex-start;
+    /* border: 1px solid white; */
+}
+.me-pic{
+    width: 40%;
+    max-width: 400px;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    margin: 0; 
+    padding: 0;
+    /* border: 1px solid red; */
+
+}
+/* .about-text{
+    flex:1;
+    color:white;
+    font-size: 1.1rem;
+    line-height:1.6;
+    margin-top: 0;
+    padding-top: 0;
+} */
+ .about-text{
+    flex: 1;
+    color: white;
+    margin-top: 9rem;
+    
+ }
+ .about-me-header{
+    margin:0;
+    padding:0;
+    /* margin-bottom: 1rem; */
+    line-height: 1;
+    font-family: "Averia Sans Libre", sans-serif;
+ }
+ .about-me-desc{
+    font-family: "Itim", cursive;
+
+ }
+.bottom-section{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.mediums{
+    display:flex;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style:none;
+    padding: 0; 
+    margin: 0;
+}
+.mediums li{
+    color:white;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 8rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    text-align:center;
+    font-family: "Itim", cursive;
+
+}
+.mediums li :hover{
+    background-color:white;
+    color:black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.brushstroke-am{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+    /* opacity: 100; */
+    z-index: 1;
+}
+/* Hue and You */
+.hue-and-you-body{
+    background-color: black;
+    color: white;
+}
+.by-Niki-gallery{
+    margin: 0;
+    cursor: pointer;
+    font-family: "Itim", cursive;
+    font-size: 1.2rem;
+    color: white;
+}
+/* .header-full-gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+} */
+.p1-info{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap:1rem;
+    width:100%;
+    margin-top: 8rem;
+}
+.p1-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom:1rem;
+}
+.p1-medium, .p1-context{
+    border: 2px solid white;
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    padding: 0.75rem 1.5 rem;
+    width: 5rem;
+    align-self:flex-start;
+    margin-left: 2rem;
+}
+.p1-medium-desc, .p1-context-desc{
+    align-self: flex-start;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+}
+.brushstroke-hy{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    object-fit:cover;
+    /* opacity: 100; */
+    z-index: -1;
+}
+@media screen and (max-width: 768px) {
+    .above-the-fold{
+        padding: 1rem;
+    }
+    .header-full{
+        padding:1rem;
+    }
+    .navigation {
+        gap: 1rem;
+    }
+    .intro-main-text{
+        font-size: 2rem;
+    }
+    .intro-sub-text{
+        font-size: 1rem;
+    }
+    .thumbnails{
+        padding: 1rem;
+        gap: 2rem;
+    }
+    .thumbnails img{
+        width:100% !important;
+        align-self: flex-start !important;
+        margin-left: 0 !important;
+    }
+    .top-section{
+        flex-direction: column;
+        gap:2rem;
+    }
+    .me-pic{
+        width:100%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    .about-page-content{
+        padding: 2rem 1 rem;
+    }
+    .mediums{
+        gap: 1rem;
+    }
+    .mediums li{
+        width:120px;
+        height: 120px;
+        font-size: 0.9rem;
+    }
+    
+}
