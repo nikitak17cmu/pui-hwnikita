@@ -303,11 +303,204 @@ canvas{
     /* opacity: 100; */
     z-index: -1;
 }
+.p1-image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
 .p1-image-gallery img{
     width: 20rem;
     height: 20rem;
     object-fit: cover; /* stops distortion of images */
+    flex-shrink: 0;
+    
+}  
+/* p1 - image one   */
+.p1-one-container{
+    position: relative;
+    width: 20rem;
+    height: 20rem;   
 }
+.p1-one-container .p1-img-one{
+    width: 100%;
+    height: 100%;
+}
+.p1-img-one:hover {
+    filter:blur(3px);
+    cursor: pointer;
+}
+.text-desc{
+    position: absolute;
+    color: white;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 2;
+    
+}
+.p1-img-one:hover ~ .text-desc{
+    opacity: 1;
+}
+
+/* p1-image two */
+.p1-two-container{
+    position: relative;
+    width: 20rem;
+    height: 20rem;   
+}
+.p1-two-container .p1-img-two{
+    width: 100%;
+    height: 100%;
+}
+.p1-img-two:hover {
+    filter:blur(3px);
+    cursor: pointer;
+}
+.text-desc{
+    position: absolute;
+    color: white;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 2;
+    
+}
+.p1-img-two:hover ~ .text-desc{
+    opacity: 1;
+}
+
+/* p1-image three */
+.p1-three-container{
+    position: relative;
+    width: 20rem;
+    height: 20rem;   
+}
+.p1-three-container .p1-img-three{
+    width: 100%;
+    height: 100%;
+}
+.p1-img-three:hover {
+    filter:blur(3px);
+    cursor: pointer;
+}
+.text-desc{
+    position: absolute;
+    color: white;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 2;
+    
+}
+.p1-img-three:hover ~ .text-desc{
+    opacity: 1;
+}
+
+/* p1- image four */
+.p1-four-container{
+    position: relative;
+    width: 20rem;
+    height: 20rem;   
+}
+.p1-four-container .p1-img-four{
+    width: 100%;
+    height: 100%;
+}
+.p1-img-four:hover {
+    filter:blur(3px);
+    cursor: pointer;
+}
+.text-desc{
+    position: absolute;
+    color: white;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 2;
+    
+}
+.p1-img-four:hover ~ .text-desc{
+    opacity: 1;
+}
+
+/* p1-image five */
+.p1-five-container{
+    position: relative;
+    width: 20rem;
+    height: 20rem;   
+}
+.p1-five-container .p1-img-five{
+    width: 100%;
+    height: 100%;
+}
+.p1-img-five:hover {
+    filter:blur(3px);
+    cursor: pointer;
+}
+.text-desc{
+    position: absolute;
+    color: white;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 2;
+    
+}
+.p1-img-five:hover ~ .text-desc{
+    opacity: 1;
+}
+/* p1-image six */
+.p1-six-container{
+    position: relative;
+    width: 20rem;
+    height: 20rem;   
+}
+.p1-six-container .p1-img-six{
+    width: 100%;
+    height: 100%;
+}
+.p1-img-six:hover {
+    filter:blur(3px);
+    cursor: pointer;
+}
+.text-desc{
+    position: absolute;
+    color: white;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    z-index: 2;
+    
+}
+.p1-img-six:hover ~ .text-desc{
+    opacity: 1;
+}
+
+
+
 @media screen and (max-width: 768px) {
     .above-the-fold{
         padding: 1rem;
