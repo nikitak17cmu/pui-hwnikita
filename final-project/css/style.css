@@ -1,3 +1,10 @@
+canvas{
+    display:block;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: -1;
+}
 .header-full{
     display: flex;
     justify-content: space-between;
@@ -162,6 +169,7 @@
     margin: 0; 
     padding: 0;
     /* border: 1px solid red; */
+    margin-top: 6rem;
 
 }
 /* .about-text{
@@ -175,7 +183,7 @@
  .about-text{
     flex: 1;
     color: white;
-    margin-top: 9rem;
+    margin-top: 6rem;
     
  }
  .about-me-header{
@@ -232,7 +240,7 @@
     height:100%;
     object-fit:cover;
     /* opacity: 100; */
-    z-index: 1;
+    z-index: 0;
 }
 /* Hue and You */
 .hue-and-you-body{
@@ -276,6 +284,9 @@
     width: 5rem;
     align-self:flex-start;
     margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .p1-medium-desc, .p1-context-desc{
     align-self: flex-start;
@@ -292,6 +303,7 @@
     /* opacity: 100; */
     z-index: -1;
 }
+
 @media screen and (max-width: 768px) {
     .above-the-fold{
         padding: 1rem;
