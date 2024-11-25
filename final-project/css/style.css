@@ -303,7 +303,11 @@ canvas{
     /* opacity: 100; */
     z-index: -1;
 }
-
+.p1-image-gallery img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover; /* stops distortion of images */
+}
 @media screen and (max-width: 768px) {
     .above-the-fold{
         padding: 1rem;
