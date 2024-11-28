@@ -72,11 +72,11 @@ canvas{
     text-decoration: none;
 }
 .reveries-body a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
-.everies-body a:visited{
-    color: black;
+.reveries-body a:visited{
+    color: white;
     text-decoration: none;
 }
 
@@ -275,6 +275,7 @@ canvas{
     font-size: 3rem;
     text-align: center;
     margin-bottom:1rem;
+    font-family: "Averia Sans Libre", sans-serif;
 }
 .p1-medium, .p1-context{
     border: 2px solid white;
@@ -287,11 +288,13 @@ canvas{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Itim", cursive;
 }
 .p1-medium-desc, .p1-context-desc{
     align-self: flex-start;
     margin-top: 0.5rem;
     margin-left: 2rem;
+    font-family: "Itim", cursive;
 }
 .brushstroke-hy{
     position: absolute;
@@ -499,7 +502,11 @@ canvas{
     opacity: 1;
 }
 
-
+/* Reveries */
+.reveries-body{
+    background-color: black;
+    color: white;
+}
 
 @media screen and (max-width: 768px) {
     .above-the-fold{
