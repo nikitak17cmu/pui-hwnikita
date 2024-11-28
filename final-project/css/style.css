@@ -79,6 +79,14 @@ canvas{
     color: white;
     text-decoration: none;
 }
+.inasilentroom-body a{
+    color: white;
+    text-decoration: none;
+}
+.inasilentroom-body a:visited{
+    color: white;
+    text-decoration: none;
+}
 
 /* Intro/tagline */
 .intro{
@@ -504,6 +512,28 @@ canvas{
 
 /* Reveries */
 .reveries-body{
+    background-color: black;
+    color: white;
+}
+.p2-image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+.p2-image-gallery img{
+    width: 20rem;
+    height: 20rem;
+    object-fit: cover; /*stops distortion of images */
+    flex-shrink: 0;
+    
+}  
+/* Reveries */
+.inasilentroom-body{
     background-color: black;
     color: white;
 }
