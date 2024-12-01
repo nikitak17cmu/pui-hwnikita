@@ -117,6 +117,7 @@ canvas{
     padding: 3rem;
     max-width: 1200px;
     margin: 0 auto;
+    
 }
 .thumbnails img {
     max-width: 100%;
@@ -126,7 +127,8 @@ canvas{
 }
 .hue-and-you{
     align-self: flex-start;
-    width:80%
+    width:80%;
+    margin-top: 5rem;
 }
 .reveries{
     align-self: flex-end;
@@ -134,16 +136,16 @@ canvas{
 }
 .in-a-silent-room{
     align-self:flex-start;
-    width:80%
+    width:80%;
 }
 .blue-mold{
     align-self:center;
-    width: 70%
+    width: 70%;
 }
 .mehndi{
     align-self: flex-start;
     margin-left: 15%;
-    width:75%
+    width:75%;
 }
 /* About Me */
 .about-page-content{
