@@ -299,12 +299,15 @@ canvas{
     justify-content: center;
     align-items: center;
     font-family: "Itim", cursive;
+    font-size: large;
 }
+
 .p1-medium-desc, .p1-context-desc{
     align-self: flex-start;
     margin-top: 0.5rem;
     margin-left: 2rem;
     font-family: "Itim", cursive;
+    font-size: large;
 }
 .brushstroke-hy{
     position: absolute;
@@ -387,6 +390,7 @@ canvas{
     left:50%;
     transform:translate(-50%, -50%);
     z-index: 2;
+    font-size: large;
     
 }
 .p1-img-two:hover ~ .text-desc{
@@ -510,6 +514,53 @@ canvas{
 }
 .p1-img-six:hover ~ .text-desc{
     opacity: 1;
+}
+.p1-section {
+    border-left: 2px solid white;
+    margin: 4rem 4rem 8rem 4rem;
+    padding-left:1rem;
+    max-width: 80%;
+}
+.p1-inspo{
+    /* align-self:flex-start;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    font-family: "Itim", cursive;
+    font-size: large;
+    margin-top: 2rem;
+}
+
+.fauvism-link{
+    text-decoration: underline !important;
+}
+.rainbow-hover{
+    position: relative;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-family: "Itim", cursive;
+    font-size: large;
+    color: #79B8B8;
+
+}
+.rainbow-hover-img{
+    display:none;
+    position: absolute;
+    width: 6rem;
+    top: -6.5rem;
+    left:0;
+    z-index: 100;
+}
+.rainbow-hover:hover .rainbow-hover-img{
+    display: block;
+}
+.p1-reflection{
+    font-family:"Itim", cursive;
+    font-size:large;
 }
 
 /* Reveries */
