@@ -585,7 +585,36 @@ canvas{
     flex-shrink: 0;
     
 }  
-/* Reveries */
+.p2-lookfor{
+    font-family:"Itim", cursive;
+    font-size:large;
+}
+.glitter-text{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.glitter-text:hover{
+    color: #6bc1e5;
+    text-shadow: 0 0 8px white;
+}
+.velvet-text{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.velvet-text:hover{
+    color: #e8a5a5;
+    text-shadow: 0 0 8px white;
+}
+.lace-text{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.lace-text:hover{
+    color: #a67c52;
+    text-shadow: 0 0 8px white;
+}
+
+/* In a Silent Room */
 .inasilentroom-body{
     background-color: black;
     color: white;
