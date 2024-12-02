@@ -620,6 +620,13 @@ canvas{
     color: white;
 }
 
+.p3-img{
+    width: 50%;
+    display:block;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
 @media screen and (max-width: 768px) {
     .above-the-fold{
         padding: 1rem;
