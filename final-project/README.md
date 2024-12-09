@@ -16,22 +16,32 @@ Each collection tells a story - the medium that was used to create it, the inspi
 ## Part 2: User Interaction
 
 There are 5 pages that users can navigate to:
+
 Homepage
+
 - The page should automatically load onto this page. 
-- You can navigate back to this page by clicking on - ‘Works’ and ‘by Niki’ within the navigation. 
+- You can navigate back to this page by clicking on - ‘Works’ and ‘by Niki’ within the navigation.
+  
 Hue & You 
+
 - You can click on any part of the Hue & You card on the homepage to get to this page. 
 - Within this page, users can hover over each artwork to see its name. 
 - Within the color choices section, you can hover over the different color options to see which artwork each description is referring to. 
-- You can click on ‘Fauvism,’ and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page. 
+- You can click on ‘Fauvism,’ and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page.
+
 Reveries 
+
 - You can click on any part of the Reveries card on the homepage to get to this page. 
 - Within this page, users can hover over each artwork to see its name. 
-- The words “glitter,” “velvet,” and “lace” have a hover animation set to them. Hover over each word to see which artwork the description is referring to. 
+- The words “glitter,” “velvet,” and “lace” have a hover animation set to them. Hover over each word to see which artwork the description is referring to.
+  
 In a Silent Room 
+
 - You can click on any part of the In a Silent Room card on the homepage to get to this page. 
-- You can click on ‘JMW Turner, the famous British painter,’ ’and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page. 
+- You can click on ‘JMW Turner, the famous British painter,’ ’and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page.
+  
 About Me 
+
 - You can navigate to this page by clicking on About Me and within the navigation. 
 
 
