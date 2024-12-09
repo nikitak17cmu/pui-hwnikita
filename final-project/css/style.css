@@ -113,6 +113,7 @@ canvas{
 .thumbnails{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 8rem;
     padding: 3rem;
     max-width: 1200px;
@@ -132,7 +133,7 @@ canvas{
 }
 .reveries{
     align-self: flex-end;
-    width: 80%;
+    width: 60%;   
 }
 .in-a-silent-room{
     align-self:flex-start;
@@ -620,12 +621,34 @@ canvas{
     color: white;
 }
 
-.p3-img{
+.p3-img-container{
+    position: relative;
     width: 50%;
+    margin: 0 auto;
+}
+.p3-img{
+    width: 100%;
     display:block;
     margin: 0 auto;
     margin-top: 10rem;
 }
+.p3-hover-text {
+    display: none;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 200px;
+    pointer-events: none; 
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+}
+.map-hover:hover ~ .p3-hover-text{
+    display:block;
+}
+
 
 @media screen and (max-width: 768px) {
     .above-the-fold{

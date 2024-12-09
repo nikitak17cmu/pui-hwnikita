@@ -1,7 +1,5 @@
 <mark>**Note that this document order from FP4 -> FP1**</mark>
 
-<mark>Please sign up for the study</mark> at [https://tinyurl.com/pui-study](https://tinyurl.com/pui-study) to allow us to use your submission to create a better GenAI assistant for designers!
-
 ---
 
 # **FP4 \- Final Project Writeup**
@@ -11,19 +9,31 @@ Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/
 
 ## Part 1: Website Description
 
-Describe your website (300 words).
+Welcome to my virtual gallery - a space where people can see what I do when I’m not studying the human experience. While my professional portfolio has shifted away from art, I wanted to create a digital space where the pieces can be shared and displayed. Within this site, you’ll find collections of my work that invite you to explore, interact, and immerse yourself in each one. 
+Each collection tells a story - the medium that was used to create it, the inspiration behind it, the context, etc. I’ve included insights into my creative process, artistic decisions, and techniques behind each work. I hope that this conveys my intentions to the audience. The pages feature interactive elements throughout, including a generative art animation on the homepage, which I included as an homage to my time in undergrad, where I spend time creating various generative art pieces. Like any physical gallery, this virtual gallery is open to all. The page is able to be viewed by anyone ranging from art enthusiasts to casual viewers. There is not a specific target audience for this website, but I would say that the primary audience will likely be friends and industry professionals. 
 
-* What is the purpose of your website?   
-* Who is the target audience?  
-* What information do you convey with your website?   
-* How is it interesting and engaging? 
 
 ## Part 2: User Interaction
 
-How a user would interact with your website? For each step, briefly but clearly state the interaction type & how we should reproduce it.
+There are 5 pages that users can navigate to:
+Homepage
+- The page should automatically load onto this page. 
+- You can navigate back to this page by clicking on - ‘Works’ and ‘by Niki’ within the navigation. 
+Hue & You 
+- You can click on any part of the Hue & You card on the homepage to get to this page. 
+- Within this page, users can hover over each artwork to see its name. 
+- Within the color choices section, you can hover over the different color options to see which artwork each description is referring to. 
+- You can click on ‘Fauvism,’ and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page. 
+Reveries 
+- You can click on any part of the Reveries card on the homepage to get to this page. 
+- Within this page, users can hover over each artwork to see its name. 
+- The words “glitter,” “velvet,” and “lace” have a hover animation set to them. Hover over each word to see which artwork the description is referring to. 
+In a Silent Room 
+- You can click on any part of the In a Silent Room card on the homepage to get to this page. 
+- You can click on ‘JMW Turner, the famous British painter,’ ’and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page. 
+About Me 
+- You can navigate to this page by clicking on About Me and within the navigation. 
 
-1. Interaction type. Click on X on page Y / scroll on page X, etc.  
-2. 
 
 ## Part 3: External Tool
 
