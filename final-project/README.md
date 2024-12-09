@@ -42,7 +42,8 @@ In a Silent Room
   
 About Me 
 
-- You can navigate to this page by clicking on About Me and within the navigation. 
+- You can navigate to this page by clicking on About Me and within the navigation.
+- You can click on the bubbles to see which tools and software I love to use!
 
 
 ## Part 3: External Tool
