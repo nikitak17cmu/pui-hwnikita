@@ -16,42 +16,50 @@ Each collection tells a story - the medium that was used to create it, the inspi
 ## Part 2: User Interaction
 
 There are 5 pages that users can navigate to:
+
 Homepage
+
 - The page should automatically load onto this page. 
-- You can navigate back to this page by clicking on - ‘Works’ and ‘by Niki’ within the navigation. 
+- You can navigate back to this page by clicking on - ‘Works’ and ‘by Niki’ within the navigation.
+  
 Hue & You 
+
 - You can click on any part of the Hue & You card on the homepage to get to this page. 
 - Within this page, users can hover over each artwork to see its name. 
 - Within the color choices section, you can hover over the different color options to see which artwork each description is referring to. 
-- You can click on ‘Fauvism,’ and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page. 
+- You can click on ‘Fauvism,’ and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page.
+
 Reveries 
+
 - You can click on any part of the Reveries card on the homepage to get to this page. 
 - Within this page, users can hover over each artwork to see its name. 
-- The words “glitter,” “velvet,” and “lace” have a hover animation set to them. Hover over each word to see which artwork the description is referring to. 
+- The words “glitter,” “velvet,” and “lace” have a hover animation set to them. Hover over each word to see which artwork the description is referring to.
+  
 In a Silent Room 
+
 - You can click on any part of the In a Silent Room card on the homepage to get to this page. 
-- You can click on ‘JMW Turner, the famous British painter,’ ’and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page. 
+- You can click on ‘JMW Turner, the famous British painter,’ ’and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page.
+  
 About Me 
-- You can navigate to this page by clicking on About Me and within the navigation. 
+
+- You can navigate to this page by clicking on About Me and within the navigation.
+- You can click on the bubbles to see which tools and software I love to use!
 
 
 ## Part 3: External Tool
 
-Describe what important external tool you used (JavaScript library, Web API, animations, or other). Following the bulleted list format below, reply to each of the prompts.
-
-1. Name of tool1  
-   * Why did you choose to use it over other alternatives? (2 sentences max)  
-   * How you used it? (2 sentences max)  
-   * What does it add to your website? (2 sentences max)  
-2. Name of tool2
+- The landing page has generative animations I built using **p5.js**, a reference to my background in Processing and my interest in code-driven art.
+- I chose this tool due to its flexibility that allowed me to create something fully customizable to my vision.
+- Each colorful brushstroke emerges from the left edge of the screen at a random y, and moves across the page in fluid waves. I achieved this by generating shapes that leave trails (using the line() property) as they move, creating a new “painting” every time the user reloads the page.
+- The result is fun and intriguing for the viewer to watch, adding a layer of interactivity to the site. I purposefully kept the page’s primary design minimal and sketch-like in black and white, letting the brushstrokes peek through from below, as if they’re slowly painting the entire page. 
 
 ## Part 4: Design Iteration
 
-Describe how you iterated on your prototypes, if at all, including any changes you made to your original design while you were implementing your website and the rationale for the changes. (4-8 sentences max)
+My final design evolved quite a bit from the early prototypes. I initially played with different fonts and colors from each gallery page, but as I was building the site something felt off. The pages seemed to be very disconnected from each other, and it didn’t feel like a cohesive website. Instead of distinct styles, I created a versatile background that ties everything together visually. I also deepened the content - originally the collection pages just had basic details like medium, context, and the images, but I realized I wanted to correctly demonstrate the story behind each collection. These changes helped me create an over identity for the site that has a consistent feel throughout every page. 
 
 ## Part 5: Implementation Challenge
 
-What challenges did you experience in implementing your website? (2-4 sentences max)
+The biggest challenge I faced was nailing down the design, as presentation is everything in an art gallery, it took me a while to find an aesthetic I liked. Another hurdle I had was getting the animations to look exactly the way I had envisioned, in terms of the rough texture, the color, the fade to gray, etc. 
 
 ## Part 6: Generative AI Use and Reflection
 
