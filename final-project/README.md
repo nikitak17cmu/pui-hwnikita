@@ -132,7 +132,7 @@ Document the changes and progress of your project. How have you followed or chan
 
 ## Implementation Plan Updates
 
-- [ ] ...
+- I have decided to change my design, and keep the original background of the collection pieces the same. 
 
 ## Generative AI Use Plan Updates
 

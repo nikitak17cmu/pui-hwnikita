@@ -373,6 +373,8 @@ canvas {
   transform: translate(-50%, -50%);
   z-index: 2;
   font-size: xx-large;
+  padding: 1rem;
+  background-color: black;
 }
 .p1-img-one:hover ~ .text-desc {
   opacity: 1;
@@ -391,18 +393,6 @@ canvas {
   filter: blur(3px);
   cursor: pointer;
 }
-/* .text-desc {
-  position: absolute;
-  color: white;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  font-size: large;
-} */
 .p1-img-two:hover ~ .text-desc {
   opacity: 1;
 }
@@ -420,17 +410,6 @@ canvas {
   filter: blur(3px);
   cursor: pointer;
 }
-/* .text-desc {
-  position: absolute;
-  color: white;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-} */
 .p1-img-three:hover ~ .text-desc {
   opacity: 1;
 }
@@ -448,17 +427,6 @@ canvas {
   filter: blur(3px);
   cursor: pointer;
 }
-/* .text-desc {
-  position: absolute;
-  color: white;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-} */
 .p1-img-four:hover ~ .text-desc {
   opacity: 1;
 }
@@ -476,17 +444,6 @@ canvas {
   filter: blur(3px);
   cursor: pointer;
 }
-/* .text-desc {
-  position: absolute;
-  color: white;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-} */
 .p1-img-five:hover ~ .text-desc {
   opacity: 1;
 }
@@ -504,17 +461,6 @@ canvas {
   filter: blur(3px);
   cursor: pointer;
 }
-/* .text-desc {
-  position: absolute;
-  color: white;
-  pointer-events: none;
-  opacity: 0;
-  transition: opacity 0.3s;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-} */
 .p1-img-six:hover ~ .text-desc {
   opacity: 1;
 }
@@ -554,6 +500,11 @@ canvas {
 }
 .rainbow-hover:hover .rainbow-hover-img {
   display: block;
+}
+@media (hover: none) {
+  .rainbow-hover:active .rainbow-hover-img {
+    display: block;
+  }
 }
 .p1-reflection {
   font-family: "Itim", cursive;
