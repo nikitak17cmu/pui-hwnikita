@@ -63,9 +63,12 @@ The biggest challenge I faced was nailing down the design, as presentation is ev
 
 ## Part 6: Generative AI Use and Reflection
 
-Describe how you used Generative AI tools to create this final project (fill in the following information, write \~500 words in total).
+I utilized ChatGPT for troubleshooting GitHub issues and debugging code errors, while I leveraged Claude specifically for implementing new code features and writing some core functionality. These tools had separate uses that they were better for. 
 
-Document your use of all GenAI tools — ChatGPT, Copilot, Claude, Cursor, etc. using the template below. Add/Delete rows or bullet points if needed, and replace Tool1/Tool2 with the name of the tool.
+I actually used GenAI less than I had initially planned, partly due to my change in design and partly because it didn’t actually get me to where I needed some of the time. At the start of my project, I primarily used it as a research tool to explore the various libraries I had mentioned in my FP2 write-up before ultimately deciding to use p5.js. When developing the animation system, which was my most prevalent use of GenAI, I collaborated with Claude specifically for implementing the mathematical calculations needed for the wave-like trail effect that creates the “paint” across the screen. While Claude helped with technical implementation and animation integration, I managed creative control - for instance, when the AI suggested modifying existing shapes, I instead pursued my own vision by suggesting a trail effect using a line behind the shape, which ended up proving to be more effective for the final design. I was able to integrate some aspects of what the tool suggested, but I couldn’t use all of it. 
+
+While I had initially planned to leverage AI extensively, I discovered that many debugging issues became easier to solve independently and without using a tool as there were more pages of code working together. AI seemed to be more valuable for specific technical challenges, particularly with implementing complex trigonometry for the animations that I wouldn’t have been able to solve alone and  finding a tiny typo within the 500+ lines of css code. However, I did encounter notable limitations - the tools required extremely precise prompts to provide useful responses, and its suggested implementations weren’t always optimal, requiring me to try various things and double check responses. There was not a single time where I was able to just copy and paste code in and have it be exactly what I was looking for. This experience taught me that AI is best used as a targeted tool for specific challenges rather than as a comprehensive development solution. 
+
 
 ### Usage Experiences by Project Aspects
 
