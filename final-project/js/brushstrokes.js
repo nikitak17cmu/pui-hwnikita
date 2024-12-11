@@ -3,9 +3,9 @@ function setup() {
   console.log("p5.js working");
   canvasW = windowWidth;
   canvasH = windowHeight;
-  createCanvas(canvasW, canvasH); 
+  createCanvas(canvasW, canvasH);
   background(255);
-  for (let i = 0; i < random(1,3); i++) {
+  for (let i = 0; i < random(1, 3); i++) {
     brushstrokes.push(new Brushstroke());
   }
 }
@@ -34,7 +34,7 @@ class Brushstroke {
     this.strokeWidth = random(30, 60);
     this.currentX = this.x;
     this.currentY = this.y;
-    this.pressure = random(0.5, 1); 
+    this.pressure = random(0.5, 1);
     //ChatGPT helped me with figuring out the math here for the brush angle and wave dynamics
     this.direction = random(PI / 6, PI / 3);
     this.curveAmplitude = random(20, 50);
