@@ -375,6 +375,7 @@ canvas {
   font-size: xx-large;
   padding: 1rem;
   background-color: black;
+  text-align: center;
 }
 .p1-img-one:hover ~ .text-desc {
   opacity: 1;
