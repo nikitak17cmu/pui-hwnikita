@@ -2,9 +2,12 @@
 
 ---
 
-# **FP4 \- Final Project Writeup**
+# WAVE TOOL & RESPONSIVE INFORMATION:
 
-Feel free to refer to this [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/) to make your writeup more organized, and you can preview your markdown file in VSCode [Markdown editing with Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown#_markdown-preview). 
+https://docs.google.com/document/d/1pwYisxkvaYPfV7Yc-udsD7If2fT_lmpFBDfpt2FDe70/edit?usp=sharing
+
+
+# **FP4 \- Final Project Writeup**
 
 
 ## Part 1: Website Description
@@ -27,7 +30,7 @@ Hue & You
 - You can click on any part of the Hue & You card on the homepage to get to this page. 
 - Within this page, users can hover over each artwork to see its name. 
 - Within the color choices section, you can hover over the different color options to see which artwork each description is referring to. 
-- You can click on ‘Fauvism,’ and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page.
+- You can click on ‘Fauvism,’ and it will take you to a page that goes into the history of the art style.
 
 Reveries 
 
@@ -38,7 +41,7 @@ Reveries
 In a Silent Room 
 
 - You can click on any part of the In a Silent Room card on the homepage to get to this page. 
-- You can click on ‘JMW Turner, the famous British painter,’ ’and it will take you to a page that goes into the history of the art style. You can click the back button to get back to the page.
+- You can click on ‘JMW Turner, the famous British painter,’ ’and it will take you to a page that goes into the history of the art style. 
   
 About Me 
 
@@ -80,49 +83,75 @@ For the following aspects of your project, edit the corresponding table cell to 
 
 | Tool Name | Ratings | design | plan | write code | debug | \_ (other?) |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| Tool1 | Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool1 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
-| Tool2| Usage | Yes/No | Yes/No | Yes/No | Yes/No | Yes/No |
-| Tool2 | Productivity | 1~7 | 1~7 | 1~7 | 1~7 | 1~7 |
+| ChatGPT | Usage | No | No | No | Yes | Yes (Git Errors) |
+| Tool1 | Productivity | 0 | 0 | 0 | 5 | 6 |
+| Claude| Usage | No | Yes | Yes | No | No |
+| Tool2 | Productivity | 0 | 4 | 5 | 0 | 0 |
 
 
 ### Usage Reflection
 
 > Impact on your design and plan 
 * It matched my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1: ChatGPT helped me debug and solve git issues. These were pretty basic problems.
+  2. Tool2: Claude helped me some specific tasks I asked for it to do.
 * It did not match my expectations and plan in [FP2](#generative-ai-use-plan) in that … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1: N/A
+  2. Tool2: I didn't expect to have to guide the AI tools as much as I did. In the end I came up with the implementation, and the tool seemed like a sounding board at times. 
 * GenAI tool did/did not influence my final design and implementation plan because … For example, 
-  1. Tool1: 
-  2. Tool2:
+  1. Tool1: It did not because I didn't ask it to do anything that would affect my design.
+  2. Tool2: It did not, I changed my design based on aesthetics, and didn't ask the tool what it thought about any of that. 
 
 > Use patterns
 * I accepted the generations when …  For example, 
-  1. Tool1: this tool once suggested … and I adjusted my design according to the suggestion because … 
-  2. Tool2: 
+  1. Tool1: This tool fixed issues in my code.
+  2. Tool2: This tool helped me make a feature I already had better, or when it helped me integrate a new feature like my animations.
 * I critiqued/evaluated the generated suggestions by … For example, 
-  1. Tool1: this tool once suggested … but I modified/rejected the suggestion because … 
-  2. Tool2: 
+  1. Tool1: N/A
+  2. Tool2: This tool suggested to do brushstroke animations I should create shapes that look like that, but I came up with a way that looked much better aesthetically. 
 
 
 > Pros and cons of using GenAI tools
 * Pros
-  1. Tool1: 
-  2. Tool2:
+  1. Efficiency - can help you spot any errors
+  2. Solve complexities - can help you with math that is needed in your code
 * Cons
-  1. Tool1: 
-  2. Tool2:
+  1. It needs to be babysat almost, you have to go through multiple interactions with the tool before you get to what you actually need. 
+  2. Many times your ideas are better than the tool. 
 
 
 ### Usage Log
 
-Document the usage logs (prompts and chat history links) for the GenAI tools you used. Some tools may not have an easy way to share usage logs, just try your best! Some instructions for different tools:
+ChatGPT: Git/Filepath help
 
-1. [ChatGPT](https://help.openai.com/en/articles/7925741-chatgpt-shared-links-faq) / [Gemini](https://support.google.com/gemini/answer/13743730?hl=en&co=GENIE.Platform%3DDesktop): share the anonymous link to all of your chat histories relevant to this project
-2. [GitHub Copilot (VSCode)](https://code.visualstudio.com/docs/copilot/copilot-chat#:~:text=You%20can%20export%20all%20prompts%20and%20responses%20for%20a%20chat%20session%20in%20a%20JSON%20file%20with%20the%20Chat%3A%20Export%20Session...%20command%20(workbench.action.chat.export)%20in%20the%20Command%20Palette.): export chat histories relevant to this project.
+https://chatgpt.com/share/675937b0-5368-8010-a7ac-bd9eab3d49e0
+
+Claude: 
+
+[Note: Claude does not have an option to share a link to a chat, so I am screenshotting them in]
+
+Brushstroke animation: Math and Wave implementation
+
+<img width="634" alt="Screenshot 2024-12-11 at 1 55 24 AM" src="https://github.com/user-attachments/assets/c557334b-e477-4528-8342-029f182d47b3">
+
+<img width="656" alt="Screenshot 2024-12-11 at 1 54 19 AM" src="https://github.com/user-attachments/assets/9e4eccb9-b307-4807-83e8-d06d97766ad8">
+
+Just for fun - here is what the animations looked like before I had the idea to make a trail using line()!
+
+<img width="1139" alt="Screenshot 2024-11-20 at 8 23 31 PM" src="https://github.com/user-attachments/assets/38bd58d1-e4dc-407a-a2da-3a338b0fe744">
+
+This is what I had asked Claude, because I wasn't sure how to turn this into looking like paint on the screen. Before this, Claude had reccomended a way for me to make the shape look like a brushstroke, which looked really bad.  
+
+<img width="679" alt="Screenshot 2024-12-11 at 1 48 11 AM" src="https://github.com/user-attachments/assets/3301af20-41aa-4425-a555-948b793a9bde">
+
+I also used Claude to help me shorten alt text for the WAVE tool.
+
+<img width="720" alt="Screenshot 2024-12-11 at 1 41 50 AM" src="https://github.com/user-attachments/assets/b2520f09-36f3-46eb-94c3-fd1c70c6d282">
+
+I was having issues for a while, where my hyperlinks weren't opening into a new tab. I asked Claude for the proper way to implement this to see where I went wrong, and it had been a simple spelling mistake!
+
+<img width="710" alt="Screenshot 2024-12-11 at 1 41 27 AM" src="https://github.com/user-attachments/assets/48c56345-fa67-413c-a252-026ae871f8ec">
+
 
 ---
 
