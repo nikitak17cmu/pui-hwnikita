@@ -133,10 +133,13 @@ Document the changes and progress of your project. How have you followed or chan
 ## Implementation Plan Updates
 
 - I have decided to change my design, and keep the original background of the collection pieces the same. 
+- I got rid of some plan of interactivity and added different ones. 
+- Create a clear, cohesive concept.
 
 ## Generative AI Use Plan Updates
 
-- [ ] ...
+- I am only using Claude and ChatGPT. 
+- I will be using it to help me do my animations.
 
 Remember to keep track of your prompts and usage for [FP4 writeup](#part-6-generative-ai-use-and-reflection).
 
